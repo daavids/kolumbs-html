@@ -1,0 +1,64 @@
+@mixin transition-veryfast() {
+	transition: all 150ms ease;
+}
+
+@mixin transition-fast() {
+	transition: all 350ms ease;
+}
+
+@mixin transition-medium() {
+	transition: all 500ms ease;
+}
+
+@mixin transition-slow() {
+	transition: all 650ms ease;
+}
+
+@mixin transition-veryslow() {
+	transition: all 850ms ease;
+}
+
+@mixin desktop-wide {
+	@media only screen and (min-width: #{$desktop-wide-width}) {
+		@content;
+	}
+}
+
+@mixin desktop-narrow {
+	@media only screen and (max-width: #{$desktop-narrow-width}) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media only screen and (max-width: #{$tablet-width}) {
+		@content;
+	}
+}
+
+@mixin phone {
+	@media only screen and (max-width: #{$phone-width}) {
+		@content;
+	}
+}
+
+@keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: $accent-green;
+	}
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-15px);
+	}
+}

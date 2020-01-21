@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Ellipse_10_copy_4" data-name="Ellipse 10 copy 4" class="cls-1" d="M25,0A25,25,0,1,1,0,25,25,25,0,0,1,25,0Zm0,2A23,23,0,1,1,2,25,23,23,0,0,1,25,2Z"/>
+  <path id="Rounded_Rectangle_2_copy_4" data-name="Rounded Rectangle 2 copy 4" class="cls-1" d="M36.51,19.611l-12.9,12.9a1.652,1.652,0,0,1-2.222,0l-7.9-7.9a1.5,1.5,0,0,1,2.121-2.121L22.5,29.379,34.389,17.49A1.5,1.5,0,0,1,36.51,19.611Z"/>
+</svg>
